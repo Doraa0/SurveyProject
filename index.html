@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveystyle.css">
+    <title>Dora's Burger Survey</title>
+</head>
+    <Header>
+        <h1 id="title"> Dora Burger Survey </h1>
+      </Header>
+
+      <body>
+        <p id="description"> Fill the details below </p>
+        
+        <form id="survey-form">
+          
+        <div class="input-headings">
+          
+          <label for="name" id="name-label"> Name </label>
+          <input id="name" type="text" name="name" placeholder="Dora" class="form-inputs" required> </input>
+        <br>
+        
+        <label for="email" id="email-label"> Email </label>
+        <input id="email" type="email" name="email" placeholder="doradoll@gmail.com" class="form-inputs" required> </input>
+        <br>
+            
+        <label for="number" id="number-label"> Age </label>
+        <input id="number" type="number" name="number" placeholder="23" min="18" max="50" class="form-inputs" required> </input>
+        <br>
+        
+        <label for="dropdown" id="flavour"> Select flavour </label>
+        <select id="dropdown" class="form-inputs">
+          <option value="BBQ"> BBQ </option>
+          <option value="chilli"> Chilli </option>
+          <option value="spicy">Spicy </option>
+          <option value="cheese"> Cheese</option>
+          <option value="pepperoni"> Pepperoni </option>
+          
+        </select>
+        <br>
+        <br>
+        <label for="colour" id="colour"> <b>Colour: </b>
+          <br>
+          <input id="colour" type="radio" id="black" name="colour" value="black">
+          <label for="black"> Black </label>
+          <br>
+        
+          <input id="colour" type="radio" id="purple" name="colour" value="purple">
+          <label for="purple"> Purple </label>
+          <br>
+          
+         <input id="colour" type="radio" id="red" name="colour" value="red">
+          <label for="red"> Red </label>
+        <br>
+          <br>
+          
+          <label for="features"><b> Add types: </b></label>
+          <br>
+          <input id="checkbox" type="checkbox" name="features" value="tasty"> 
+          <label for="checkbox"> Whooper - #3,000 </label>
+          <br>
+           <input id="checkbox" type="checkbox" name="features" value="Crispy"> 
+          <label for="checkbox"> Crispy Chicken - #4000 </label>
+          <br>
+           <input id="checkbox" type="checkbox" name="features" value="Steak"> 
+          <label for="checkbox"> Steakhouse - #3000 </label>
+          <br>
+           <input id="checkbox" type="checkbox" name="features" value="delicious"> 
+          <label for="checkbox"> Big king - #2500 </label>
+          <br>
+          
+          <label id="textarea"> Addditional Comments </label>
+          <br>
+          <br>
+         
+          <textarea id="textarea" name="instructions" rows="5" cols="40">
+          </textarea>
+          <br>
+          
+          
+         <input id="submit" type="submit" value="Place order" class="submit-button">
+          
+                                               </div> 
+        </form>
+        
+        </body>
+
+</html>
